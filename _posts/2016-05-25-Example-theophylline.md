@@ -1,8 +1,9 @@
 ---
-layout: post
-title: "First Commit"
+title: "First one."
+layout: single
+excerpt: "This is my first commit."
+sitemap: false
 ---
-
 Hi, all.
 
 I'm Sue.
