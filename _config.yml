@@ -35,7 +35,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : wreckord
+  username               :
 facebook:
   username               :
   app_id                 :
@@ -61,19 +61,19 @@ google_ad_slot           :
 
 # Site Author
 author:
-  name             : "Sungpil Han"
+  name             : "Uisoo Chae M.D."
   avatar           : "bio-photo.png"
   bio              : ""
   location         : "Seoul, Korea"
-  email            : "shan@acp.kr"
-  uri              : shanmdphd.github.io
+  email            : "suechae@gmail.com"
+  uri              : suechae.github.io
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
   facebook         :
   foursquare       :
-  github           : shanmdphd
+  github           : suechae
   google_plus      :
   keybase          :
   instagram        :
@@ -81,10 +81,10 @@ author:
   linkedin         :
   pinterest        :
   soundcloud       :
-  stackoverflow    : 1748866/sungpil-han # http://stackoverflow.com/users/123456/username
+  stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
-  tumblr           : sungpil
-  twitter          : wreckord
+  tumblr           :
+  twitter          :
   vine             :
   weibo            :
   xing             :
@@ -124,14 +124,12 @@ keep_files:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-
 # Conversion
 markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-
 
 # Markdown Processing
 kramdown:
@@ -143,7 +141,6 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
-
 
 # Outputting
 permalink: /:categories/:title/
@@ -196,7 +193,6 @@ tag_archive:
 #   permalinks:
 #     category: /categories/:name/
 #     tag: /tags/:name/
-
 
 # HTML Compression
 # - http://jch.penibelst.de/
