@@ -1,6 +1,6 @@
 ---
 title: "First one."
-layout: single
+layout: double
 excerpt: "This is my first commit."
 sitemap: false
 ---
