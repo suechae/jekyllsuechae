@@ -1,23 +1,14 @@
 ---
-layout: default
-title: Home
+layout: archive
+author_profile: true
 ---
 
-{% include intro.html %}
+{% include base_path %}
 
-<section class="post-list">
-  <div class="container">
+<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts }}</h3>
 
-    <h2>Writing..</h2>
+{% for post in paginator.posts %}
+  {% include archive-single.html %}
+{% endfor %}
 
-    {% for post in paginator.posts %}
-      <article class="post-item">
-        <p><span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>  — <strong><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></strong> — <span> {{ post.content | strip_html | truncatewords: 40 }}</span> <a class="post-link readmore" href="{{ post.url | prepend: site.baseurl }}">Read more</a></p>
-      </article>
-    {% endfor %}
-  </div>
-
-  <div class="container">
-    {% include pagination.html %}
-  </div>
-</section>
+{% include paginator.html %}
